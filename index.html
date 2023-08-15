@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário HTML</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+
+  <body class="fundo">
+    <div id="caixa" class="caixa">
+      <div class="flexbox_titulo">
+        <h1>Login</h1>
+        <span id="lua" class="fa-solid fa-moon icon"></span>
+      </div>
+      <div class="flexbox_icones">
+        <span class="fa-brands fa-facebook icone"></span>
+        <span class="fa-brands fa-google icone"></span>
+        <span class="fa-brands fa-github icone"></span>
+      </div>
+
+      <form>
+        <div class="flexbox_label">
+          <label>Name</label>
+          <span class="fa-solid fa-user img"></span>
+          <input type="text" id="nome" />
+        </div>
+        <div class="flexbox_label">
+          <label>Email</label>
+          <span class="fa-solid fa-envelope img"></span>
+          <input type="email" id="email" />
+        </div>
+        <div class="flexbox_label">
+          <label>Password</label>
+          <span class="fa-solid fa-key img"></span>
+          <input type="password" id="senha" />
+        </div>
+
+        <a href="http://www.google.com">Esqueceu sua senha?</a>
+
+        <input type="submit" id="submit" value="Login" />
+      </form>
+    </div>
+  </body>
+</html>

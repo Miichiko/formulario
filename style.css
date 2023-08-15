@@ -1,0 +1,90 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    position: relative;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+
+.fundo{
+    background: linear-gradient( to right,#813EE6,#AA53F0,#BF46E9);
+
+}
+
+.caixa{
+    position: absolute;
+    background-color: lightblue;
+    width: 35rem;
+    height: 60rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 3rem;
+    border-radius: .5rem;
+}
+
+h1{
+    font-size: 5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.flexbox_titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.icon{
+    font-size: 2rem;
+
+}
+
+.icone{
+    font-size: 3rem;
+
+}
+.flexbox_icones{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin: 3rem 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.flexbox_label{
+    display: grid;
+    grid-template: 2rem 1fr / 2rem 1fr;
+    gap: 1rem;
+}
+label{
+    grid-column: 1/3;
+    font-size: 2rem;
+}
+.img{
+    font-size: 2rem;
+}
+input{
+    border-radius: .4rem;
+    border-style: solid;
+    padding: 1rem;
+}
+a{
+    font-size: 2rem;
+}
